@@ -1,0 +1,43 @@
+{% extends "C/base.html" %} {% load static %} {% block content %}
+<br>
+<br>
+<div class="container mt-5">
+    <div class="row mt-5">
+        <div class="col-sm-12 mt-5">
+            <table class="table table-white table-striped table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">SR NO</th>
+                        <th scope="col">EVENT NAME</th>
+                        <th scope="col">DATE</th>
+                        <th scope="col">TIME</th>
+                        <th scope="col">DURATION(HOURS)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>FOOTBOOL</td>
+                        <td>Ho</td>
+                        <td>@6 a.m</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Hock</td>
+                        <td>Aug 15,2022</td>
+                        <td>@6 p.m</td>
+                        <td>2</td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <center>
+                <button class="btn btn-warning"> <a href="{% url 'detailes' %}">BACK TO TENNSI BOOKING</a></button>
+            </center>
+        </div>
+
+
+
+    </div>
+</div>{% endblock %}

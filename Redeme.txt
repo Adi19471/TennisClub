@@ -1,0 +1,8 @@
+install python  software
+
+pip install django==3.0
+
+pip install django-crispy-forms
+
+
+now you can past on local server  http://127.0.0.1:8000/

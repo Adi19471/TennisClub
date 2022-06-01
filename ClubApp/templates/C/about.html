@@ -1,0 +1,130 @@
+{% extends "C/base.html" %} {% load static %} {% block content %}
+
+<style>
+    .centered {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    
+    .overlay {
+        position: absolute;
+        text-align: center;
+        margin-left: 350px;
+        margin-top: 250px;
+        background-color: none;
+    }
+    
+    img {
+        width: 1100px;
+        height: 300px;
+    }
+    
+    #four :hover {
+        cursor: e-resize;
+        width: 500px
+    }
+</style>
+
+<section id="portfolio" style="padding-bottom:50px; background: -webkit-linear-gradient(-45deg, #47b5ac 0%, #23476b 51%, #3b3163 100%); background: -moz-linear-gradient(-45deg, #47b5ac 0%, #23476b 51%, #3b3163 100%); background: -o-linear-gradient(-45deg, #47b5ac 0%, #23476b 51%, #3b3163 100%); background: linear-gradient(-45deg, #47b5ac 0%, #23476b 51%, #3b3163 100%);">
+
+    <div class="container">
+        <h1 class="text-center">
+
+
+
+            <h1 class="overlay text-dark">OUR STORY</h1><br><br>
+            <p class="overlay text-dark">OUR TECHNOLOGY POWERS SPORTS ORGANIZATIONS</p>
+
+            <!-- <img src="{% static 'images/book.jpg' %}" alt="Snow" width="50%" height="30%" style="margin-left: 180px;">
+                 -->
+
+            <p class="text-white">We’ve been around for over a decade, are partnered with over a dozen national governing bodies, and have worked with thousands of sports leagues, clubs, and associations. In other words, we’ve got a lot of experience and knowledge to share
+                that goes way beyond our sports registration and league management software. We like to think of ourselves as your partner rather than your technology provider and we are invested in the success of your organization because we truly believe
+                that what you’re doing is a great thing. Whether it’s with software, marketing, or just good ‘ol chalk talk, we’ll support you in any way we can. Living active lives is what we believe in, which is why we love working with sports organizers.
+                Your mission, to get more kids off the couch and in the game, is the same as ours</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRysQHJT8cvwiTb5CCcvmGxVMTgFjY2eRSG6w&usqp=CAU" /></div>
+
+
+
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10">
+                <p class="text-white">
+                    Members: Please use our court booking facility below for booking courts. Registration and verification is required before bookings can be made. The court booking system can also be accessed directly through the booking page.</p>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+    </div>
+
+
+
+
+</section>
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+        <div class="col mb-4">
+            <div class="card" id="four">
+                <img src="{% static 'images/about-2.jpg' %}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Sports Clubs & Gyms</h5>
+                    <dt>Anything and everything from Squash to Snooker...</dt>
+                    <p class="card-text">Thousands of players are using our software daily to manage bookings and participate in activities.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card" id="four">
+                <img src="{% static 'images/about-1.jpg' %}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Racquet Clubs</h5>
+                    <dt>Tennis and all racquet sports...</dt>
+                    <p class="card-text">Public and Private racquet clubs of all sizes are now fulfilling their potential with us.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card" id="four">
+                <img src="{% static 'images/about-3.jpg' %}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Community Centers / Outdoor</h5>
+                    <dt>Sports Halls & Pitches...</dt>
+                    <p class="card-text">Badminton Halls. Half and full pitch booking for GAA, Soccer and Rugby clubs. Astro & Gym bookings.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card" id="four">
+                <img src="{% static 'images/last.webp' %}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Winner of Player</h5>
+                    <p class="card-text">Roberto Bautista Agut has won the Qatar Open for the second time after beating Nikoloz Basilashvili 6-3, 6-4 in a replay of last year’s
+                    </p>
+
+                    <a href="https://www.aljazeera.com/gallery/2022/2/20/photos-bautista-agut-captures-10th-career-title-in-qatar" target="_blank" class="btn btn-info">More information</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="card">
+            <div class="col-sm-10">
+
+                <iframe width="1040" height="315" src="https://www.youtube.com/embed/LNd1_FcrKiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <br><br><br><br><br>
+    <br> {% endblock %}
