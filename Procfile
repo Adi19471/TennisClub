@@ -1,1 +1,1 @@
-web: gunicorn TENNIS_CLUB_MANAGEMNET_SYSTEM.wsgi --log-file  -
+web: gunicorn TENNIS_CLUB_MANAGEMNET_SYSTEM.wsgi --log-file -
